@@ -48,3 +48,4 @@ $ bin\windows\kafka-console-consumer.bat --topic transactions --from-beginning -
 To run the person service you need to have python installed as well as flask and kafka-python
 
 #### BankService
+To run the bank service install rust and kafka for rust.
