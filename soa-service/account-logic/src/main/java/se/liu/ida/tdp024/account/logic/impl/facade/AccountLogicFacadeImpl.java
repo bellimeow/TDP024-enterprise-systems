@@ -22,7 +22,7 @@ public class AccountLogicFacadeImpl implements AccountLogicFacade {
     @Override
     public Account createAccount(String accountType, String personKey, String bankName) {
 
-        /*Validate Parameters*/
+        /* Validate Parameters */
         if(accountType == null || personKey ==  null  || bankName == null){
             return null;
         }
