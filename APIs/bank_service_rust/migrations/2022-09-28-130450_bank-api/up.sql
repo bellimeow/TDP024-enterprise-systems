@@ -1,0 +1,19 @@
+-- Your SQL goes here
+
+CREATE TABLE banks (
+    key INTEGER PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR NOT NULL
+);
+
+INSERT INTO
+    "banks"(name)
+VALUES 
+("SWEDBANK"),
+("IKANOBANKEN"),
+("JPMORGAN"),
+("NORDEA"),
+("CITIBANK"),
+("HANDELSBANKEN"),
+("SBAB"),
+("HSBC"),
+("NORDNET");
