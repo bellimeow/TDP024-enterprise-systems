@@ -1,5 +1,4 @@
 **/api/** linguist-vendored=false
 **/api/** linguist-documentation=false
 
-*.java linguist-vendored=false
-*.rs linguist-vendored=false
+
